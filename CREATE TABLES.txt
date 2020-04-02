@@ -1,50 +1,38 @@
 SIGNUP 
 create table SignUp(FirstName varchar(15), LastName varchar(15), EmailID varchar(25), PhoneNumber integer, UserID varchar(10), Password varchar(15), primary key(UserID));
-Query OK, 0 rows affected (1.93 sec)
 
 LOGIN
 create table LOGIN(UserID varchar(10), Password varchar(15), primary key(UserID), foreign key(UserID) references SignUp(UserID));
-Query OK, 0 rows affected (0.72 sec)
 
 FLIGHT
 create table Flight(FlightNo varchar(10), Source varchar(15), Destination varchar(15), Date date, Time time, NoOfPassengers integer, primary key(FlightNo));
-Query OK, 0 rows affected (0.78 sec)
 
 Flight_fare_cap
 create table Flight_fare_cap(FlightNo varchar(10), BusinessFare integer, BusinessCap integer, EconomyFare integer, EconomyCap integer, primary key(FlightNo), foreign key(FlightNo) references Flight(FlightNo));
-Query OK, 0 rows affected (1.33 sec)
 
 TRAIN
 create table Train(TrainNo varchar(10), Source varchar(15), Destination varchar(15), Date date, Time time, NoOfPassengers integer, primary key(TrainNo));
-Query OK, 0 rows affected (1.36 sec)
 
 TRAIN_FARE_CAP
 create table Train_fare_cap(TrainNo varchar(10), FirstClassFare integer, FirstClassCap integer, SecondClassFare integer, SecondClassCap integer, primary key(TrainNo), foreign key(TrainNo) references Train(TrainNo));
-Query OK, 0 rows affected (0.96 sec)
 
 CAR
 create table Car(CarNo varchar(10), Type varchar(10),Source varchar(15), Destination varchar(15), Date date, Time time, primary key(CarNo));
-Query OK, 0 rows affected (0.77 sec)
 
 XUV
 create table XUV(CarNo varchar(10), TotalNo integer, Fare integer, primary key(CarNo), foreign key(CarNo) references Car(CarNo));
-Query OK, 0 rows affected (0.83 sec)
 
 SEDAN
 create table Sedan(CarNo varchar(10), TotalNo integer, Fare integer, primary key(CarNo), foreign key(CarNo) references Car(CarNo));
-Query OK, 0 rows affected (0.75 sec)
 
 BUS
 create table Bus(BusNo varchar(10), Type varchar(10),Source varchar(15), Destination varchar(15), Date date, Time time, primary key(BusNo));
-Query OK, 0 rows affected (0.44 sec)
 
 SlEEPER
 create table sleeper(BusNo varchar(10), Capacity integer, Fare integer, primary key(BusNo), foreign key(BusNo) references Bus(BusNo));
-Query OK, 0 rows affected (0.80 sec)
 
 VOLVO
 create table Volvo(BusNo varchar(10), Capacity integer, Fare integer, primary key(BusNo), foreign key(BusNo) references Bus(BusNo));
-Query OK, 0 rows affected (0.68 sec)
 
 
 
