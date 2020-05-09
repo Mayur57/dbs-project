@@ -1,0 +1,16 @@
+insert into signup values('Shivanchal','Agarwal','shivanchal2000@gmail.com',9650259031,'shivanchal','dbsproject');
+insert into signup values('Prachi','Mantri','prachimantri@gmail.com',9650259041,'prachi','dbsproject2');
+insert into signup values('Mayur','Bhoi','mayurboi@gmail.com',9650259141,'mayur','dbsproject3');
+insert into signup values('Devadrita','Bose','devabose@gmail.com',9650258141,'deva','dbsproject4');
+insert into signup values('Bhuvan','Bam','bhuvam.bam@gmail.com',9650258151,'bhuvan','dbsproject5');
+
+insert into login values('shivanchal','dbsproject');
+ insert into login values('prachi','dbsproject2');
+insert into login values('mayur','dbsproject3');
+insert into login values('deva','dbsproject4');
+insert into login values('bhuvan','dbsproject5');
+
+
+
+
+
