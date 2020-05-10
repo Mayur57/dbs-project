@@ -57,8 +57,8 @@
             // 
             // signup
             // 
-            this.signup.BackColor = System.Drawing.SystemColors.Desktop;
-            this.signup.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.signup.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.signup.ForeColor = System.Drawing.Color.Transparent;
             this.signup.Location = new System.Drawing.Point(667, 403);
             this.signup.Name = "signup";
             this.signup.Size = new System.Drawing.Size(75, 23);
@@ -68,8 +68,8 @@
             // 
             // login
             // 
-            this.login.BackColor = System.Drawing.SystemColors.Desktop;
-            this.login.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.login.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.login.ForeColor = System.Drawing.Color.Transparent;
             this.login.Location = new System.Drawing.Point(148, 403);
             this.login.Name = "login";
             this.login.Size = new System.Drawing.Size(75, 23);
@@ -80,7 +80,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.label1.ForeColor = System.Drawing.Color.SeaGreen;
             this.label1.Location = new System.Drawing.Point(58, 217);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(71, 13);
@@ -91,7 +91,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.label2.ForeColor = System.Drawing.Color.SeaGreen;
             this.label2.Location = new System.Drawing.Point(58, 258);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(81, 13);
@@ -101,7 +101,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.label3.ForeColor = System.Drawing.Color.SeaGreen;
             this.label3.Location = new System.Drawing.Point(475, 184);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(57, 13);
@@ -111,7 +111,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.label4.ForeColor = System.Drawing.Color.SeaGreen;
             this.label4.Location = new System.Drawing.Point(735, 180);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(58, 13);
@@ -121,25 +121,28 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.label5.ForeColor = System.Drawing.Color.SeaGreen;
             this.label5.Location = new System.Drawing.Point(475, 265);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 13);
+            this.label5.Size = new System.Drawing.Size(78, 13);
             this.label5.TabIndex = 6;
-            this.label5.Text = "label5";
+            this.label5.Text = "Phone Number";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.label6.ForeColor = System.Drawing.Color.SeaGreen;
             this.label6.Location = new System.Drawing.Point(475, 224);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(35, 13);
+            this.label6.Size = new System.Drawing.Size(43, 13);
             this.label6.TabIndex = 7;
-            this.label6.Text = "label6";
+            this.label6.Text = "EmailID";
             // 
             // textBox1
             // 
+            this.textBox1.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox1.ForeColor = System.Drawing.Color.Transparent;
             this.textBox1.Location = new System.Drawing.Point(166, 209);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
@@ -147,6 +150,9 @@
             // 
             // textBox2
             // 
+            this.textBox2.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox2.ForeColor = System.Drawing.Color.Transparent;
             this.textBox2.Location = new System.Drawing.Point(166, 258);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
@@ -154,6 +160,9 @@
             // 
             // textBox3
             // 
+            this.textBox3.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox3.ForeColor = System.Drawing.Color.Transparent;
             this.textBox3.Location = new System.Drawing.Point(555, 177);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 20);
@@ -162,26 +171,30 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.label7.ForeColor = System.Drawing.Color.SeaGreen;
             this.label7.Location = new System.Drawing.Point(475, 300);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(35, 13);
+            this.label7.Size = new System.Drawing.Size(40, 13);
             this.label7.TabIndex = 11;
-            this.label7.Text = "label7";
+            this.label7.Text = "UserID";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.label8.ForeColor = System.Drawing.Color.SeaGreen;
             this.label8.Location = new System.Drawing.Point(475, 342);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(35, 13);
+            this.label8.Size = new System.Drawing.Size(53, 13);
             this.label8.TabIndex = 12;
-            this.label8.Text = "label8";
+            this.label8.Text = "Password";
             this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // textBox4
             // 
+            this.textBox4.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox4.ForeColor = System.Drawing.Color.Transparent;
             this.textBox4.Location = new System.Drawing.Point(804, 173);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 20);
@@ -189,6 +202,9 @@
             // 
             // textBox5
             // 
+            this.textBox5.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox5.ForeColor = System.Drawing.Color.Transparent;
             this.textBox5.Location = new System.Drawing.Point(555, 221);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(100, 20);
@@ -196,6 +212,9 @@
             // 
             // textBox6
             // 
+            this.textBox6.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox6.ForeColor = System.Drawing.Color.Transparent;
             this.textBox6.Location = new System.Drawing.Point(555, 258);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(100, 20);
@@ -203,6 +222,9 @@
             // 
             // textBox7
             // 
+            this.textBox7.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox7.ForeColor = System.Drawing.Color.Transparent;
             this.textBox7.Location = new System.Drawing.Point(555, 293);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(100, 20);
@@ -210,6 +232,9 @@
             // 
             // textBox8
             // 
+            this.textBox8.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox8.ForeColor = System.Drawing.Color.Transparent;
             this.textBox8.Location = new System.Drawing.Point(555, 339);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(100, 20);
@@ -218,11 +243,11 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Mistral", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label9.Font = new System.Drawing.Font("Mongolian Baiti", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.SeaGreen;
             this.label9.Location = new System.Drawing.Point(133, 105);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(90, 38);
+            this.label9.Size = new System.Drawing.Size(130, 37);
             this.label9.TabIndex = 18;
             this.label9.Text = "LOGIN";
             this.label9.Click += new System.EventHandler(this.label9_Click);
@@ -230,11 +255,11 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Mistral", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label10.Font = new System.Drawing.Font("Mongolian Baiti", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.SeaGreen;
             this.label10.Location = new System.Drawing.Point(637, 105);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(105, 38);
+            this.label10.Size = new System.Drawing.Size(148, 37);
             this.label10.TabIndex = 19;
             this.label10.Text = "SIGNUP";
             // 
@@ -286,6 +311,7 @@
             this.Controls.Add(this.login);
             this.Controls.Add(this.signup);
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
