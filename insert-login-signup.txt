@@ -5,7 +5,7 @@ insert into signup values('Devadrita','Bose','devabose@gmail.com',9650258141,'de
 insert into signup values('Bhuvan','Bam','bhuvam.bam@gmail.com',9650258151,'bhuvan','dbsproject5');
 
 insert into login values('shivanchal','dbsproject');
- insert into login values('prachi','dbsproject2');
+insert into login values('prachi','dbsproject2');
 insert into login values('mayur','dbsproject3');
 insert into login values('deva','dbsproject4');
 insert into login values('bhuvan','dbsproject5');
