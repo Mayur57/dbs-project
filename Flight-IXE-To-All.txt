@@ -1,0 +1,83 @@
+
+
+insert into flight values('PR001','Mangalore','Bangalore',to_date('2020-07-10','yyyy-mm-dd'),'07:00',3500,8000);
+insert into flight values('PR002','Mangalore','Bangalore',to_date('2020-07-10','yyyy-mm-dd'),'13:00',5500,12000);
+insert into flight values('PR003','Mangalore','Bangalore',to_date('2020-07-10','yyyy-mm-dd'),'18:30',6500,11000);
+insert into flight values('PR004','Mangalore','Bangalore',to_date('2020-07-10','yyyy-mm-dd'),'23:00',2500,4000);
+
+insert into flight values('PR005','Mangalore','Bangalore',to_date('2020-07-11','yyyy-mm-dd'),'06:00',2500,3900);
+insert into flight values('PR006','Mangalore','Bangalore',to_date('2020-07-11','yyyy-mm-dd'),'12:45',4500,9000);
+insert into flight values('PR007','Mangalore','Bangalore',to_date('2020-07-11','yyyy-mm-dd'),'19:00',3000,6000);
+insert into flight values('PR008','Mangalore','Bangalore',to_date('2020-07-11','yyyy-mm-dd'),'22:15',3500,8000);
+
+insert into flight values('PR009','Mangalore','Bangalore',to_date('2020-07-12','yyyy-mm-dd'),'08:40',3500,4900);
+insert into flight values('PR010','Mangalore','Bangalore',to_date('2020-07-12','yyyy-mm-dd'),'14:00',4000,7900);
+insert into flight values('PR011','Mangalore','Bangalore',to_date('2020-07-12','yyyy-mm-dd'),'17:00',5500,8500);
+insert into flight values('PR012','Mangalore','Bangalore',to_date('2020-07-12','yyyy-mm-dd'),'01:00',2000,5800);
+
+insert into flight values('PR013','Mangalore','Bangalore',to_date('2020-07-13','yyyy-mm-dd'),'09:40',3500,5900);
+insert into flight values('PR014','Mangalore','Bangalore',to_date('2020-07-13','yyyy-mm-dd'),'11:40',4500,8900);
+insert into flight values('PR015','Mangalore','Bangalore',to_date('2020-07-13','yyyy-mm-dd'),'18:00',6500,9900);
+insert into flight values('PR016','Mangalore','Bangalore',to_date('2020-07-13','yyyy-mm-dd'),'20:10',5500,8900);
+
+insert into flight values('PR017','Mangalore','Bangalore',to_date('2020-07-14','yyyy-mm-dd'),'05:40',1500,3000);
+insert into flight values('PR018','Mangalore','Bangalore',to_date('2020-07-14','yyyy-mm-dd'),'09:20',2500,5000);
+insert into flight values('PR019','Mangalore','Bangalore',to_date('2020-07-14','yyyy-mm-dd'),'15:25',3000,7000);
+insert into flight values('PR020','Mangalore','Bangalore',to_date('2020-07-14','yyyy-mm-dd'),'21:40',4500,8000);
+
+
+
+insert into flight values('PR101','Mangalore','Delhi',to_date('2020-07-10','yyyy-mm-dd'),'08:40',3500,8000);
+insert into flight values('PR102','Mangalore','Delhi',to_date('2020-07-10','yyyy-mm-dd'),'12:40',7500,11000);
+insert into flight values('PR103','Mangalore','Delhi',to_date('2020-07-10','yyyy-mm-dd'),'13:00',7600,12000);
+insert into flight values('PR104','Mangalore','Delhi',to_date('2020-07-10','yyyy-mm-dd'),'21:10',8900,15000);
+
+insert into flight values('PR105','Mangalore','Delhi',to_date('2020-07-11','yyyy-mm-dd'),'10:35',5500,12500);
+insert into flight values('PR106','Mangalore','Delhi',to_date('2020-07-11','yyyy-mm-dd'),'14:00',6500,11000);
+insert into flight values('PR107','Mangalore','Delhi',to_date('2020-07-11','yyyy-mm-dd'),'16:35',9500,11500);
+insert into flight values('PR108','Mangalore','Delhi',to_date('2020-07-11','yyyy-mm-dd'),'21:10',9500,19500);
+
+insert into flight values('PR109','Mangalore','Delhi',to_date('2020-07-12','yyyy-mm-dd'),'11:35',8500,11500);
+insert into flight values('PR110','Mangalore','Delhi',to_date('2020-07-12','yyyy-mm-dd'),'12:25',9500,10000);
+insert into flight values('PR111','Mangalore','Delhi',to_date('2020-07-12','yyyy-mm-dd'),'18:35',7500,10500);
+insert into flight values('PR112','Mangalore','Delhi',to_date('2020-07-12','yyyy-mm-dd'),'21:15',12500,16520);
+
+insert into flight values('PR113','Mangalore','Delhi',to_date('2020-07-13','yyyy-mm-dd'),'04:35',3500,7500);
+insert into flight values('PR114','Mangalore','Delhi',to_date('2020-07-13','yyyy-mm-dd'),'11:00',9500,10000);
+insert into flight values('PR115','Mangalore','Delhi',to_date('2020-07-13','yyyy-mm-dd'),'16:00',10500,15500);
+insert into flight values('PR116','Mangalore','Delhi',to_date('2020-07-13','yyyy-mm-dd'),'00:35',8000,9500);
+
+insert into flight values('PR117','Mangalore','Delhi',to_date('2020-07-14','yyyy-mm-dd'),'09:15',8500,11500);
+insert into flight values('PR118','Mangalore','Delhi',to_date('2020-07-14','yyyy-mm-dd'),'11:15',9500,11100);
+insert into flight values('PR119','Mangalore','Delhi',to_date('2020-07-14','yyyy-mm-dd'),'14:15',8500,11500);
+insert into flight values('PR120','Mangalore','Delhi',to_date('2020-07-14','yyyy-mm-dd'),'21:15',4500,10500);
+
+
+
+
+insert into flight values('PR201','Mangalore','Mumbai',to_date('2020-07-10','yyyy-mm-dd'),'09:40',5500,7900);
+insert into flight values('PR202','Mangalore','Mumbai',to_date('2020-07-10','yyyy-mm-dd'),'11:40',4500,11200);
+insert into flight values('PR203','Mangalore','Mumbai',to_date('2020-07-10','yyyy-mm-dd'),'14:10',7600,19000);
+insert into flight values('PR204','Mangalore','Mumbai',to_date('2020-07-10','yyyy-mm-dd'),'21:10',9000,12000);
+
+insert into flight values('PR205','Mangalore','Mumbai',to_date('2020-07-11','yyyy-mm-dd'),'12:35',5500,11500);
+insert into flight values('PR206','Mangalore','Mumbai',to_date('2020-07-11','yyyy-mm-dd'),'14:30',8500,23400);
+insert into flight values('PR207','Mangalore','Mumbai',to_date('2020-07-11','yyyy-mm-dd'),'17:35',9500,11500);
+insert into flight values('PR208','Mangalore','Mumbai,to_date('2020-07-11','yyyy-mm-dd'),'21:55',6700,10500);
+
+insert into flight values('PR209','Mangalore','Mumbai',to_date('2020-07-12','yyyy-mm-dd'),'00:35',4500,10500);
+insert into flight values('PR210','Mangalore','Mumbai',to_date('2020-07-12','yyyy-mm-dd'),'12:55',9500,17000);
+insert into flight values('PR211','Mangalore','Mumbai',to_date('2020-07-12','yyyy-mm-dd'),'19:35',8500,10500);
+insert into flight values('PR212','Mangalore','Mumbai',to_date('2020-07-12','yyyy-mm-dd'),'22:15',5500,11520);
+
+insert into flight values('PR213','Mangalore','Mumbai',to_date('2020-07-13','yyyy-mm-dd'),'04:35',3500,7500);
+insert into flight values('PR214','Mangalore','Mumbai',to_date('2020-07-13','yyyy-mm-dd'),'11:00',9500,10000);
+insert into flight values('PR215','Mangalore','Mumbai',to_date('2020-07-13','yyyy-mm-dd'),'16:00',10500,15500);
+insert into flight values('PR216','Mangalore','Mumbai',to_date('2020-07-13','yyyy-mm-dd'),'00:35',8000,9500);
+
+insert into flight values('PR217','Mangalore','Mumbai',to_date('2020-07-14','yyyy-mm-dd'),'06:55',2500,5000);
+insert into flight values('PR218','Mangalore','Mumbai',to_date('2020-07-14','yyyy-mm-dd'),'12:15',3500,10000);
+insert into flight values('PR219','Mangalore','Mumbai',to_date('2020-07-14','yyyy-mm-dd'),'15:25',8500,11500);
+insert into flight values('PR220','Mangalore','Mumbai',to_date('2020-07-14','yyyy-mm-dd'),'19:55',8500,17500);
+
+
