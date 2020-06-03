@@ -51,5 +51,10 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void login_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
