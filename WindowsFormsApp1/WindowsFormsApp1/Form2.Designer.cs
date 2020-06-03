@@ -33,6 +33,9 @@
             this.bus = new System.Windows.Forms.Button();
             this.train = new System.Windows.Forms.Button();
             this.flight = new System.Windows.Forms.Button();
+            this.account = new System.Windows.Forms.Button();
+            this.changePass = new System.Windows.Forms.Button();
+            this.logout = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // back
@@ -91,12 +94,42 @@
             this.flight.Text = "FLIGHT";
             this.flight.UseVisualStyleBackColor = false;
             // 
+            // account
+            // 
+            this.account.Location = new System.Drawing.Point(405, 37);
+            this.account.Name = "account";
+            this.account.Size = new System.Drawing.Size(108, 23);
+            this.account.TabIndex = 10;
+            this.account.Text = "Account Details";
+            this.account.UseVisualStyleBackColor = true;
+            // 
+            // changePass
+            // 
+            this.changePass.Location = new System.Drawing.Point(533, 37);
+            this.changePass.Name = "changePass";
+            this.changePass.Size = new System.Drawing.Size(107, 23);
+            this.changePass.TabIndex = 11;
+            this.changePass.Text = "Change Password";
+            this.changePass.UseVisualStyleBackColor = true;
+            // 
+            // logout
+            // 
+            this.logout.Location = new System.Drawing.Point(657, 37);
+            this.logout.Name = "logout";
+            this.logout.Size = new System.Drawing.Size(75, 23);
+            this.logout.TabIndex = 12;
+            this.logout.Text = "Logout";
+            this.logout.UseVisualStyleBackColor = true;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.logout);
+            this.Controls.Add(this.changePass);
+            this.Controls.Add(this.account);
             this.Controls.Add(this.back);
             this.Controls.Add(this.car);
             this.Controls.Add(this.bus);
@@ -115,5 +148,8 @@
         private System.Windows.Forms.Button bus;
         private System.Windows.Forms.Button train;
         private System.Windows.Forms.Button flight;
+        private System.Windows.Forms.Button account;
+        private System.Windows.Forms.Button changePass;
+        private System.Windows.Forms.Button logout;
     }
 }
