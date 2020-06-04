@@ -1,0 +1,66 @@
+1.
+create or replace trigger ftrigger(no in varchar(10),type in varchar(10))
+after update on flight
+for each row
+declare 
+	cap number;
+begin
+	if type=='Economy' then
+	select capacity_Economy into cap from flight where 			no=flightno;
+	if cap ==0 then
+	RAISE_APPLICATION_ERROR(-20500,'Not available');
+	end if;
+	else 
+	select capacity_Business into cap from flight where 		no=flightno;
+	if cap ==0 then
+	RAISE_APPLICATION_ERROR(-20500,'Not available');
+	end if;
+end if;
+end;
+/
+
+2.
+create or replace trigger ttrigger(no in varchar(10),type in varchar(10))
+after update on train
+for each row
+declare 
+	cap number;
+begin
+	if type=='FirstClass' then
+	select capacity_firstClass into cap from train where 			no=trainno;
+	if cap ==0 then
+	RAISE_APPLICATION_ERROR(-20500,'Not available');
+	end if;
+	else 
+	select capacity_secondClass into cap from train where 		no=trainno;
+	if cap ==0 then
+	RAISE_APPLICATION_ERROR(-20500,'Not available');
+	end if;
+end if;
+end;
+/
+
+
+3.
+create or replace btrigger(no in varchar(10),type in varchar(10))
+after update on bus
+for each row
+declare 
+	cap number;
+begin
+	if type == 'Volvo' then
+	select capacity into capfrom volvo where no=busno;
+	if cap==0 then
+	RAISE_APPLICATION_ERROR(-20500,'not available')
+	end if;
+	
+	else 
+	select capacity into cap from sleeper where no=busno;
+	if cap==0 then
+	RAISE_APPLICATION_ERROR(-20500,'not available')
+	end if'
+end if;
+end;
+/
+
+
